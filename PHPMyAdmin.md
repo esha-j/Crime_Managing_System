@@ -351,3 +351,54 @@ CREATE TABLE `missingperson_tbl` (
   `Station_Name` varchar(50) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 ```
+
+#### MISSING CITIZENS
+```
+CREATE TABLE `missing_citizens` (
+  `MISSING_ID` int(11) NOT NULL,
+  `FIRST_NAME` varchar(45) NOT NULL,
+  `MIDDLE_NAME` varchar(45) DEFAULT NULL,
+  `LAST_NAME` varchar(45) DEFAULT NULL,
+  `GENDER` varchar(45) NOT NULL,
+  `HEIGHT` varchar(7) NOT NULL,
+  `WEIGHT` varchar(20) NOT NULL,
+  `CONTACT_PERSON` varchar(25) NOT NULL,
+  `ADDRESS` varchar(45) NOT NULL,
+  `MOBILE` int(11) NOT NULL,
+  `PHOTO` varchar(225) NOT NULL,
+  `CITY_ID` int(11) NOT NULL,
+  `SPECIAL_CLUE` varchar(225) DEFAULT NULL,
+  `POLICESTATION_NAME` varchar(45) NOT NULL,
+  `CITY_NAME` text NOT NULL,
+  `STATE` text NOT NULL,
+  `DOB` date NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+```
+
+#### MOST WANTED
+```
+-- Table structure for table `mostwanted_tbl`
+--
+
+CREATE TABLE `mostwanted_tbl` (
+  `Wanted_Id` int(11) NOT NULL,
+  `Wanted_Name` varchar(20) NOT NULL,
+  `Wanted_Location` varchar(20) NOT NULL,
+  `Wanted_Image` varchar(100) NOT NULL,
+  `Wanted_Crime` varchar(100) NOT NULL,
+  `Wanted_Desc` varchar(200) NOT NULL,
+  `Station_Name` varchar(50) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+```
+
+#### NEWS
+```
+-- Table structure for table `news`
+--
+
+CREATE TABLE `news` (
+  `ID` int(11) NOT NULL,
+  `TITLE` varchar(225) NOT NULL,
+  `DATE` date NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+```
