@@ -259,3 +259,95 @@ INSERT INTO `designation` (`DESI_ID`, `DESI_NAME`) VALUES
 (13, 'CONSTABLE');
 ```
 
+#### FEEDBACK
+```
+-- Table structure for table `feedback`
+--
+
+CREATE TABLE `feedback` (
+  `ID` int(11) NOT NULL,
+  `NAME` text NOT NULL,
+  `EMAIL` varchar(225) NOT NULL,
+  `PHONE` int(11) NOT NULL,
+  `FEEDBACK` varchar(225) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+```
+
+#### FIR DETAILS
+```
+--
+-- Table structure for table `fir_details`
+--
+
+CREATE TABLE `fir_details` (
+  `F_ID` int(11) NOT NULL,
+  `DATE` date NOT NULL,
+  `TIME` time NOT NULL,
+  `VICTIM_ID` int(11) NOT NULL,
+  `DESCRIPTION` varchar(45) DEFAULT NULL,
+  `STATUS` varchar(45) DEFAULT NULL,
+  `CRIME_ID` int(11) NOT NULL,
+  `ID_PROOF` varchar(45) NOT NULL,
+  `ID_PROOF_NO` int(11) NOT NULL,
+  `CRIMEPHOTO1` varchar(255) DEFAULT NULL,
+  `CRIMEPHOTO2` varchar(255) DEFAULT NULL,
+  `CRIMELOCATION` varchar(45) NOT NULL,
+  `CITY_ID` int(11) NOT NULL,
+  `REG_ID` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+```
+
+#### FIR FORWARD
+```
+-- Table structure for table `fir_forward`
+--
+
+CREATE TABLE `fir_forward` (
+  `F_ID` int(11) NOT NULL,
+  `OFFICER_ID` int(11) NOT NULL,
+  `DEFINE` varchar(45) NOT NULL,
+  `STATUS` varchar(45) NOT NULL,
+  `DESCRIPTION` varchar(45) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+```
+
+#### LOGIN
+```
+-- Table structure for table `login`
+--
+
+CREATE TABLE `login` (
+  `LOGIN_ID` int(11) NOT NULL,
+  `ID` int(11) NOT NULL,
+  `FIRST NAME` text NOT NULL,
+  `LAST NAME` text NOT NULL,
+  `PHONE NO.` int(11) NOT NULL,
+  `PASSWORD` varchar(45) NOT NULL,
+  `REPASSWORD` varchar(45) NOT NULL
+) ;
+```
+
+#### MISSING PERSON
+```
+-- Table structure for table `missingperson_tbl`
+--
+
+CREATE TABLE `missingperson_tbl` (
+  `Person_Id` int(11) NOT NULL,
+  `First_Name` varchar(20) NOT NULL,
+  `Middle_Name` varchar(20) NOT NULL,
+  `Last_Name` varchar(20) NOT NULL,
+  `Gender` varchar(10) NOT NULL,
+  `Birth_Date` date NOT NULL,
+  `Weight` int(11) NOT NULL,
+  `Height` float NOT NULL,
+  `Contact_Person` varchar(20) NOT NULL,
+  `Contact_Address` varchar(100) NOT NULL,
+  `Contact_City` varchar(20) NOT NULL,
+  `Contact_Mobile` int(11) NOT NULL,
+  `Photo` varchar(100) NOT NULL,
+  `Station_Name` varchar(50) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+```
