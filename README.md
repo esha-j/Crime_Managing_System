@@ -35,3 +35,21 @@ Monitor
 ![image](https://github.com/esha-j/Crime_Managing_System/assets/88835998/b8953fa2-54e7-4ae9-803d-8bc61b1cd01e)
 
 
+### IMPLEMENTATION
+
+Using Xampp and Visual Studio Code we create the front end with the help of css, html, php and javascript. The front-end will run in any browsing website under the localhost code. The front end and the back end are connected using the following code:
+```
+<?php
+# FileName="Connection_php_mysql.htm"
+# Type="MYSQL"
+# HTTP="true"
+$hostname_CMS = "localhost";
+$database_CMS = "crimes";
+$username_CMS = "root";
+$password_CMS = "";
+$CMS = mysqli_connect($hostname_CMS, $username_CMS, $password_CMS) or trigger_
+error(mysql_error(),E_USER_ERROR);
+?>
+```
+
+
