@@ -585,3 +585,53 @@ INSERT INTO `state` (`STATE_ID`, `STATE_NAME`) VALUES
 (29, 'DELHI');
 ```
 
+#### TIPS
+```
+--
+-- Table structure for table `tips`
+--
+
+CREATE TABLE `tips` (
+  `ID` int(11) NOT NULL,
+  `DETAILS` varchar(225) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+```
+
+#### USER
+```
+--
+-- Table structure for table `user_tbl`
+--
+
+CREATE TABLE `user_tbl` (
+  `User_Id` int(11) NOT NULL,
+  `Name` varchar(20) NOT NULL,
+  `Address` varchar(100) NOT NULL,
+  `City` varchar(20) NOT NULL,
+  `Mobile` int(11) NOT NULL,
+  `Email` varchar(20) NOT NULL,
+  `Gender` varchar(10) NOT NULL,
+  `BirthDate` date NOT NULL,
+  `UserName` varchar(20) NOT NULL,
+  `Password` varchar(20) NOT NULL,
+  `Station_Name` varchar(20) NOT NULL,
+  `VerificationProof` varchar(100) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+```
+
+#### WANTED
+```
+--
+-- Table structure for table `wanted`
+--
+
+CREATE TABLE `wanted` (
+  `ID` int(11) NOT NULL,
+  `NAME` text NOT NULL,
+  `LOCATION` varchar(225) NOT NULL,
+  `IMAGE` varchar(225) NOT NULL,
+  `CRIME` varchar(225) NOT NULL,
+  `DESCRIPTION` varchar(225) NOT NULL,
+  `POLICESTATION_NAME` varchar(45) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+```
