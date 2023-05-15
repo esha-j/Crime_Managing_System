@@ -164,5 +164,26 @@ COMMIT;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 ```
 
+#### COMPLAINT TABLE
+```
+-- Database: `crimes`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `complaint_tbl`
+--
+
+CREATE TABLE `complaint_tbl` (
+  `Complaint_Id` int(11) NOT NULL,
+  `User_Id` int(11) NOT NULL,
+  `Station_Name` varchar(50) NOT NULL,
+  `Complaint_Type` varchar(20) NOT NULL,
+  `Complaint_Desc` varchar(100) NOT NULL,
+  `Complaint_Date` date NOT NULL,
+  `Status` varchar(10) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+```
 
 
