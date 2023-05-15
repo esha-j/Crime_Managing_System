@@ -29,10 +29,12 @@ Monitor
 ### DESIGN OF THE PROJECT
 
 #### ER DIAGRAM
-![image](https://github.com/esha-j/Crime_Managing_System/assets/88835998/46b756c0-7381-4cf6-9802-26f6fd974a07)
+![image](https://github.com/esha-j/Crime_Managing_System/assets/88835998/f7b030dd-b135-4592-807d-a797a7fef6b6)
+
 
 #### RELATIONAL SCHEMA
-![image](https://github.com/esha-j/Crime_Managing_System/assets/88835998/b8953fa2-54e7-4ae9-803d-8bc61b1cd01e)
+![image](https://github.com/esha-j/Crime_Managing_System/assets/88835998/d4069528-9b98-41af-8394-c6f1c5a1a720)
+
 
 
 ### IMPLEMENTATION
@@ -58,8 +60,11 @@ error(mysql_error(),E_USER_ERROR);
 ![image](https://github.com/esha-j/Crime_Managing_System/assets/88835998/c3dbc398-514f-4048-96db-cd88c25ca83d)
 
 #### NEWS
-![image](https://github.com/esha-j/Crime_Managing_System/assets/88835998/5da5739a-3d3a-4c56-bf39-180a0dd08193)
+![image](https://github.com/esha-j/Crime_Managing_System/assets/88835998/94cb229b-7ca8-4e4e-9dc7-7178f72f49b9)
 
 #### TIPS
-![image](https://github.com/esha-j/Crime_Managing_System/assets/88835998/9e30ec9f-29d2-43f2-b78f-2c0534ce3d55)
+![image](https://github.com/esha-j/Crime_Managing_System/assets/88835998/0b757926-9f0e-4544-ad9e-6cecad0efa46)
+
+
+
 
