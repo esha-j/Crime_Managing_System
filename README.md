@@ -52,4 +52,14 @@ error(mysql_error(),E_USER_ERROR);
 ?>
 ```
 
+### FRONT-END
+
+#### HOME-PAGE
+![image](https://github.com/esha-j/Crime_Managing_System/assets/88835998/c3dbc398-514f-4048-96db-cd88c25ca83d)
+
+#### NEWS
+![image](https://github.com/esha-j/Crime_Managing_System/assets/88835998/5da5739a-3d3a-4c56-bf39-180a0dd08193)
+
+#### TIPS
+![image](https://github.com/esha-j/Crime_Managing_System/assets/88835998/9e30ec9f-29d2-43f2-b78f-2c0534ce3d55)
 
