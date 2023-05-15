@@ -87,6 +87,19 @@ The User can file complaints and track their complains.
 
 ![image](https://github.com/esha-j/Crime_Managing_System/assets/88835998/fa9c2449-2dc7-4339-9fb0-a52b16078ad5)
 
+### CONCLUSION
+
+Moving towards the digital world and during this pandemic we have realized the importance of digitalizing everything. As crime rates have been increasing, this system helps in monitoring the criminal reports and the user can file complains online. As this system is user friendly and can also be used by admin. This system also allows helps the user to keep track of their complaints and the police to manage the complaints.
+
+### REFERENCES 
+
+[1] Birudukota Ananda Ganesh ,B.N.S.Gupta, “Crime Management and Reporting System”, JETIR, Volume 7, Issue 8, August 2020 
+
+[2] Aamir Khan, Amit Singh, Ankit Chauhan, Aishwarya Gupta, “CRIME MANAGEMENT SYSTEM”, International Research Journal of Engineering and Technology (IRJET) e-ISSN: 2395- 0056, p-ISSN: 2395-0072 , Volume: 06 Issue: 04 | Apr 2019 
+
+[3] Shiju Sathyadevan, Crime analysis and prediction,IEEE,25 Sep t2014,10.11 09/CNSC.20 14.6906719
+
+[4] C. J. Date, A. Kannan and S. Swamynathan, An Introduction to Database Systems, Pearson Education, Eighth Edition, 2009
 
 
 
