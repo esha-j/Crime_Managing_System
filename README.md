@@ -49,9 +49,9 @@ $hostname_CMS = "localhost";
 $database_CMS = "crimes";
 $username_CMS = "root";
 $password_CMS = "";
-$CMS = mysqli_connect($hostname_CMS, $username_CMS, $password_CMS) or trigger_
-error(mysql_error(),E_USER_ERROR);
+$CMS = mysqli_connect($hostname_CMS, $username_CMS, $password_CMS) or trigger_error(mysql_error(),E_USER_ERROR); 
 ?>
+
 ```
 
 ### FRONT-END
