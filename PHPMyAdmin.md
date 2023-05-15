@@ -186,4 +186,76 @@ CREATE TABLE `complaint_tbl` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 ```
 
+#### CRIME TYPE
+```
+-- Database: `crimes`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `crime_type`
+--
+
+CREATE TABLE `crime_type` (
+  `CRIME_ID` int(11) NOT NULL,
+  `CRIME_TYPE` varchar(45) NOT NULL,
+  `DESCRIPTION` varchar(225) NOT NULL,
+  `PUNISHMENT` varchar(50) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+```
+
+#### CRIMINAL
+```
+-- Database: `crimes`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `criminal`
+--
+
+CREATE TABLE `criminal` (
+  `C_ID` int(11) NOT NULL,
+  `NAME` varchar(45) NOT NULL,
+  `CRIME_ID` int(11) NOT NULL
+) ;
+```
+
+#### DESIGNATION
+```
+-- Database: `crimes`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `designation`
+--
+
+CREATE TABLE `designation` (
+  `DESI_ID` int(11) NOT NULL,
+  `DESI_NAME` varchar(45) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `designation`
+--
+
+INSERT INTO `designation` (`DESI_ID`, `DESI_NAME`) VALUES
+(1, 'DIGP'),
+(2, 'DCP'),
+(3, 'ACP'),
+(4, 'ADG'),
+(5, 'IGP'),
+(6, 'DIG'),
+(7, 'SENIOR SUPERINTENDENT'),
+(8, 'SUPERINTENDENT'),
+(9, 'DEPUTY SUPERINTENDENT'),
+(10, 'PSI'),
+(11, 'ASI'),
+(12, 'HEAD CONSTABLE'),
+(13, 'CONSTABLE');
+```
 
