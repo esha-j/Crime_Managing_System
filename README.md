@@ -28,10 +28,10 @@ Monitor
 
 ### DESIGN OF THE PROJECT
 
-+ ER DIAGRAM
+#### ER DIAGRAM
 ![image](https://github.com/esha-j/Crime_Managing_System/assets/88835998/46b756c0-7381-4cf6-9802-26f6fd974a07)
 
-+ RELATIONAL SCHEMA
+#### RELATIONAL SCHEMA
 ![image](https://github.com/esha-j/Crime_Managing_System/assets/88835998/b8953fa2-54e7-4ae9-803d-8bc61b1cd01e)
 
 
