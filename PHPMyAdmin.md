@@ -11,14 +11,6 @@ DATABASE NAME	: crimes
 
 #### CITY TABLE
 ```
-
---
--- Database: `crimes`
---
-
--- --------------------------------------------------------
-
---
 -- Table structure for table `city`
 --
 
